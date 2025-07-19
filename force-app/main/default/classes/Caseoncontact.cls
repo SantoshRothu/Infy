@@ -25,7 +25,11 @@ public class Caseoncontact {
             if(!lsttask.isempty()){
                 insert lsttask;
                 System.debug(lsttask);
+                System.debug('Test Pass');
+            }else{
+                system.debug('No Records to insert');
             }
+            
         }    
     }
 }
